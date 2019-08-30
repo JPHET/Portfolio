@@ -1,0 +1,37 @@
+
+html,
+body,
+header,
+#intro{
+    height: 100%;
+}
+#intro,#nav{
+    background: linear-gradient(rgba(26, 26, 26, 0.6),rgba(26,26,26,0.6)), url("../img/computer.jpeg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+#Headertext{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#photo{
+    margin-bottom: 10px;
+    border-radius: 50% !important;
+    border: 5px solid #fff;
+}
+#border{
+    border-top: 0in;
+}
+#ContentHeader{
+    margin-bottom:30px;
+    text-align: center;
+}
+#EducationDesc{
+    padding-top:10px;
+}
